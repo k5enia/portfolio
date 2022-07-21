@@ -98,3 +98,28 @@ p {
   box-shadow: var(--box-shadow);
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  .paragraph {
+    text-align: left;
+  }
+
+  .center-link {
+    display: block;
+    text-align: center;
+  }
+}
